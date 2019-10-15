@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mnu_BeeperON"
+        android:title="@string/mnu_BeeperON" />
+  <item
+      android:id="@+id/mnu_BeeperOff"
+      android:title="@string/mnu_BeeperOff" />
+  <item
+      android:id="@+id/mnu_DoScan"
+      android:title="@string/mnu_DoScan" />
+  <item
+      android:id="@+id/mnu_DoBeep"
+      android:title="@string/mnu_DoBeep" />
+  <item
+      android:id="@+id/mnu_HeaderOff"
+      android:title="@string/mnu_HeaderOff" />
+  <item
+      android:id="@+id/mnu_HeaderOn"
+      android:title="@string/mnu_HeaderOn" />
+  <item
+      android:id="@+id/mnu_ManualTrigger"
+      android:title="@string/mnu_ManualTrigger" />
+  <group
+    android:id="@+id/mnu_Symbologies" >
+    <item
+        android:id="@+id/mnu_AllEnable"
+        android:title="@string/mnu_AllEnable" />
+    <item
+        android:id="@+id/mnu_AllDisable"
+        android:title="@string/mnu_AllDisable" />
+
+  </group>
+</menu>

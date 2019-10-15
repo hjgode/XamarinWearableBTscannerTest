@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:text="Click Connect"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:maxLines="10"
+        android:minLines="10"
+        android:background="#ffd9d9d9"
+        android:id="@+id/txtLog"
+        android:isScrollContainer="true"
+        android:scrollIndicators="right|bottom|start|end"
+        android:fadeScrollbars="false"
+        android:scrollHorizontally="true"
+        android:nestedScrollingEnabled="true"
+        android:scrollbars="horizontal|vertical" />
+    <Button
+        android:text="connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Connect"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp" />
+    <Button
+        android:text="test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Test"
+        android:layout_marginLeft="182dp"
+        android:layout_marginTop="32dp" />
+
+</RelativeLayout>
